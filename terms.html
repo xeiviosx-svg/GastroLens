@@ -1,22 +1,32 @@
-﻿<!doctype html>
+<!doctype html>
 <html lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Terms of Use | GastroLens</title>
+  <title>Terms of Service | GastroLens</title>
   <meta name="description" content="Terms and Conditions for GastroLens.">
+  <script>document.documentElement.classList.add('has-js');</script>
   <link rel="icon" href="/favicon.ico" sizes="any">
   <link rel="stylesheet" href="/styles.css">
 </head>
-<body>
-  <header class="site-header">
+<body class="legal-page">
+  <header class="site-header" data-nav-root>
     <div class="container nav-wrap">
-      <a class="brand" href="/index.html" aria-label="GastroLens Home">GastroLens</a>
-      <nav aria-label="Primary">
+      <div class="nav-bar">
+        <a class="brand" href="/index.html" aria-label="GastroLens Home">GastroLens</a>
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-menu" aria-label="Toggle navigation" data-nav-toggle>
+          <span class="nav-toggle-bar" aria-hidden="true"></span>
+          <span class="nav-toggle-bar" aria-hidden="true"></span>
+          <span class="nav-toggle-bar" aria-hidden="true"></span>
+        </button>
+      </div>
+      <nav class="nav-menu" id="site-menu" aria-label="Primary" data-nav-menu>
         <ul class="nav-list">
           <li><a class="nav-link" href="/index.html">Home</a></li>
           <li><a class="nav-link" href="/privacy.html">Privacy Policy</a></li>
-          <li><a class="nav-link active" href="/terms.html" aria-current="page">Terms of Use</a></li>
+          <li><a class="nav-link active" href="/terms.html" aria-current="page">Terms of Service</a></li>
+          <li><a class="nav-link" href="/support.html">Support</a></li>
+          <li><a class="nav-link nav-pill" href="/index.html#final-cta">Get GastroLens</a></li>
         </ul>
       </nav>
     </div>
@@ -24,7 +34,7 @@
 
   <main class="section">
     <article class="container legal">
-      <h1>TERMS &amp; CONDITIONS (TERMS OF USE)</h1>
+      <h1>Terms of Service</h1>
       <p class="legal-meta"><strong>GastroLens</strong></p>
       <p class="legal-meta"><strong>Last Updated:</strong> [Insert Date]</p>
       <p class="legal-intro">PLEASE READ THESE TERMS CAREFULLY. By downloading, accessing, or using GastroLens (the “App”), you agree to be bound by these Terms &amp; Conditions (“Terms”). If you do not agree, do not use the App.</p>
@@ -213,12 +223,14 @@
       <nav aria-label="Footer">
         <ul class="footer-links">
           <li><a href="/privacy.html">Privacy Policy</a></li>
-          <li><a href="/terms.html">Terms of Use</a></li>
+          <li><a href="/terms.html">Terms of Service</a></li>
+          <li><a href="/support.html">Support</a></li>
         </ul>
       </nav>
       <p class="footer-meta">Contact: <a href="mailto:contact@gastrolens.app">contact@gastrolens.app</a></p>
       <p class="footer-meta">&copy; 2026 GastroLens. All rights reserved.</p>
     </div>
   </footer>
+  <script src="/site.js" defer></script>
 </body>
 </html>

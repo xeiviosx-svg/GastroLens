@@ -7,7 +7,7 @@ This repository contains the static website used for:
 - Landing page
 - Privacy Policy
 - Terms of Use
-
+- Support
 ---
 
 ## 🌿 About Lens

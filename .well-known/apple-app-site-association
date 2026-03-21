@@ -1,0 +1,14 @@
+{
+  "applinks": {
+    "details": [
+      {
+        "appIDs": [
+          "85TYRYBTN5.com.gastrolens.app"
+        ],
+        "components": [
+          { "/": "/share/*" }
+        ]
+      }
+    ]
+  }
+}
